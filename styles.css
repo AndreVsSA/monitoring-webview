@@ -190,3 +190,19 @@ main {
     color: #666;
     font-weight: 400;
 }
+#service-details{
+    border-radius:15px;
+    background-color: #ffffff;
+    max-width: 800px;
+    display:block
+}
+#service-details h2{
+    
+    font-size: 2rem;
+
+}
+#service-details p1{
+    
+    font-size: 1.5rem;
+    
+}

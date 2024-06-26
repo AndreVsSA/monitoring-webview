@@ -74,9 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
             servicesList.appendChild(li);
 
             li.addEventListener('click', () => {
-                console.log(service);
-                localStorage.setItem('service', JSON.stringify(service));
-                window.location.href = 'details.html';
+                selectedService = service;
+
+                window.location.href = `details.html`;
             });
         });
     }
